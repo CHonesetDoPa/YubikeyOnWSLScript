@@ -2,6 +2,7 @@
 This is a Guide for wsl2 users to use yubikey easier.
 
 # For English Users  
+## install usbipd to attach yubikey https://github.com/dorssel/usbipd-win
 ## install necessary libs  
 > sudo apt install yubico-piv-tool scdaemon pinentry-gtk2 opensc
 ## add ssh-agent to your shell env
@@ -18,6 +19,8 @@ This is a Guide for wsl2 users to use yubikey easier.
 ### Due to unknown reasons, the udev rules only work for GPG signatures and not for PIV. If you need to use PIV, please use sudo.
 
 # 对于中文用户
+
+## 安装usbipd来附加yubikey https://github.com/dorssel/usbipd-win
 
 ## 安装必要的库
 > sudo apt install yubico-piv-tool scdaemon pinentry-gtk2 opensc
